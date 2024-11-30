@@ -1,0 +1,778 @@
+Connecting to MongoDB using URI: mongodb+srv://Admin:1234@nbad-testing.fcwwn.mongodb.net/?retryWrites=true&w=majority&appName=NBAD-Testing
+Server is running on port 3000
+MongoDB connected successfully
+[2024-11-29T20:31:21.047Z] GET /summary
+Request Body: {}
+[2024-11-29T20:31:23.377Z] GET /
+Request Body: {}
+[2024-11-29T20:43:07.815Z] GET /
+Request Body: {}
+[2024-11-29T20:45:46.465Z] POST /api/login
+Request Body: { username: 'ramgopal', password: '1234' }
+Login request received: { username: 'ramgopal', password: '1234' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'ramgopal'[39m, password: [32m'1234'[39m }, {})
+Login successful, token generated: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjc0YTBjOWJlYTYyOWJiODYzMGRhNGYzIn0sImlhdCI6MTczMjkxMzE0NiwiZXhwIjoxNzMyOTE2NzQ2fQ.d6KO1nxN18Ojx4euYu7SYNqFPtSRqdKrDGvGuPyyefc
+[2024-11-29T20:45:49.052Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a27fd89d273548efcc183'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a27fd89d273548efcc184'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:45:49.093Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:45:52.263Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:45:52.273Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a280089d273548efcc186'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a280089d273548efcc187'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:45:52.304Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:45:52.336Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a280089d273548efcc189'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a280089d273548efcc18a'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:45:52.347Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:45:52.385Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a280089d273548efcc18c'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a280089d273548efcc18d'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:47:53.717Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:47:53.721Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a287989d273548efcc18f'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a287989d273548efcc190'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:47:53.756Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:47:53.806Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+[2024-11-29T20:47:53.814Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a287989d273548efcc192'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a287989d273548efcc193'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:47:53.857Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a287989d273548efcc195'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a287989d273548efcc196'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:48:52.052Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:48:52.077Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a28b489d273548efcc198'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a28b489d273548efcc199'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:48:52.096Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:48:52.126Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a28b489d273548efcc19b'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a28b489d273548efcc19c'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T20:48:52.136Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-29T20:48:52.171Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a28b489d273548efcc19e'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a28b489d273548efcc19f'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-29T22:45:26.482Z] GET /
+Request Body: {}
+[2024-11-29T23:15:14.721Z] GET /
+Request Body: {}
+[2024-11-29T23:59:53.927Z] GET /api/.env
+Request Body: {}
+[2024-11-30T02:34:27.441Z] GET /
+Request Body: {}
+[2024-11-30T02:37:34.641Z] GET /login
+Request Body: {}
+[2024-11-30T02:37:46.005Z] POST /api/signup
+Request Body: {
+  username: 'Sriya',
+  password: 'zxcvbn',
+  email: 'sriyachowdary3434@gmail.com'
+}
+Signup request received: {
+  username: 'Sriya',
+  password: 'zxcvbn',
+  email: 'sriyachowdary3434@gmail.com'
+}
+[0;36mMongoose:[0m users.findOne({ username: [32m'Sriya'[39m }, {})
+[0;36mMongoose:[0m users.insertOne({ username: [32m'Sriya'[39m, password: [32m'zxcvbn'[39m, _id: ObjectId("674a7a7a89d273548efcc1a1"), __v: [33m0[39m}, {})
+User registered successfully: {
+  username: 'Sriya',
+  password: 'zxcvbn',
+  _id: new ObjectId('674a7a7a89d273548efcc1a1'),
+  __v: 0
+}
+[2024-11-30T02:42:15.761Z] POST /api/login
+Request Body: { username: 'Sriyachowdary3434@gmail.com', password: 'zxcv' }
+Login request received: { username: 'Sriyachowdary3434@gmail.com', password: 'zxcv' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'Sriyachowdary3434@gmail.com'[39m, password: [32m'zxcv'[39m }, {})
+Invalid credentials
+[2024-11-30T02:43:06.721Z] POST /api/login
+Request Body: { username: 'sriya', password: 'Chava' }
+Login request received: { username: 'sriya', password: 'Chava' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'sriya'[39m, password: [32m'Chava'[39m }, {})
+Invalid credentials
+[2024-11-30T02:43:14.003Z] POST /api/login
+Request Body: { username: 'sriya', password: 'Chava' }
+Login request received: { username: 'sriya', password: 'Chava' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'sriya'[39m, password: [32m'Chava'[39m }, {})
+Invalid credentials
+[2024-11-30T02:43:14.481Z] POST /api/signup
+Request Body: {
+  username: 'Sriya',
+  password: 'zxcv',
+  email: 'touchmenot1609@gmail.com'
+}
+Signup request received: {
+  username: 'Sriya',
+  password: 'zxcv',
+  email: 'touchmenot1609@gmail.com'
+}
+[0;36mMongoose:[0m users.findOne({ username: [32m'Sriya'[39m }, {})
+Username already exists
+[2024-11-30T02:43:19.922Z] POST /api/login
+Request Body: { username: 'sriya', password: 'Chaya' }
+Login request received: { username: 'sriya', password: 'Chaya' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'sriya'[39m, password: [32m'Chaya'[39m }, {})
+Invalid credentials
+[2024-11-30T02:43:21.761Z] POST /api/signup
+Request Body: {
+  username: 'Sriya6789',
+  password: 'zxcv',
+  email: 'touchmenot1609@gmail.com'
+}
+Signup request received: {
+  username: 'Sriya6789',
+  password: 'zxcv',
+  email: 'touchmenot1609@gmail.com'
+}
+[0;36mMongoose:[0m users.findOne({ username: [32m'Sriya6789'[39m }, {})
+[0;36mMongoose:[0m users.insertOne({ username: [32m'Sriya6789'[39m, password: [32m'zxcv'[39m, _id: ObjectId("674a7bc989d273548efcc1a9"), __v: [33m0[39m}, {})
+User registered successfully: {
+  username: 'Sriya6789',
+  password: 'zxcv',
+  _id: new ObjectId('674a7bc989d273548efcc1a9'),
+  __v: 0
+}
+[2024-11-30T02:43:44.400Z] POST /api/login
+Request Body: { username: 'sriya', password: 'Chava' }
+Login request received: { username: 'sriya', password: 'Chava' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'sriya'[39m, password: [32m'Chava'[39m }, {})
+Invalid credentials
+[2024-11-30T02:43:46.321Z] POST /api/login
+Request Body: { username: 'Sriya6789', password: 'zxcv' }
+Login request received: { username: 'Sriya6789', password: 'zxcv' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'Sriya6789'[39m, password: [32m'zxcv'[39m }, {})
+Login successful, token generated: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjc0YTdiYzk4OWQyNzM1NDhlZmNjMWE5In0sImlhdCI6MTczMjkzNDYyNiwiZXhwIjoxNzMyOTM4MjI2fQ.bTAygA7DJJzAvFqjn4_W7-WDXvwrpAsiDk4FciNy5aw
+[2024-11-30T02:43:59.608Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:43:59.614Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7bef89d273548efcc1ae'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7bef89d273548efcc1af'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-30T02:44:00.003Z] POST /api/signup
+Request Body: {
+  username: 'santosh',
+  password: 'santosh',
+  email: 'santosh@gmail.com'
+}
+Signup request received: {
+  username: 'santosh',
+  password: 'santosh',
+  email: 'santosh@gmail.com'
+}
+[0;36mMongoose:[0m users.findOne({ username: [32m'santosh'[39m }, {})
+[0;36mMongoose:[0m users.insertOne({ username: [32m'santosh'[39m, password: [32m'santosh'[39m, _id: ObjectId("674a7bf089d273548efcc1b1"), __v: [33m0[39m}, {})
+User registered successfully: {
+  username: 'santosh',
+  password: 'santosh',
+  _id: new ObjectId('674a7bf089d273548efcc1b1'),
+  __v: 0
+}
+[2024-11-30T02:44:06.162Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+[2024-11-30T02:44:06.163Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+[2024-11-30T02:44:06.165Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:06.165Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7bf689d273548efcc1b5'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7bf689d273548efcc1b6'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7bf689d273548efcc1b7'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7bf689d273548efcc1b8'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-30T02:44:13.201Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:13.202Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7bfd89d273548efcc1ba'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7bfd89d273548efcc1bb'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-30T02:44:15.841Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:15.842Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7bff89d273548efcc1bd'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7bff89d273548efcc1be'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-30T02:44:15.923Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:19.281Z] POST /api/login
+Request Body: { username: 'santosh', password: 'santosh' }
+Login request received: { username: 'santosh', password: 'santosh' }
+[0;36mMongoose:[0m users.findOne({ username: [32m'santosh'[39m, password: [32m'santosh'[39m }, {})
+Login successful, token generated: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjc0YTdiZjA4OWQyNzM1NDhlZmNjMWIxIn0sImlhdCI6MTczMjkzNDY1OSwiZXhwIjoxNzMyOTM4MjU5fQ.eHwOOOgnqSidV_GseUskin75-R2Vk_JKxDSzjAfgotE
+[2024-11-30T02:44:36.561Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:36.562Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7c1489d273548efcc1c1'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7c1489d273548efcc1c2'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-30T02:44:58.161Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:58.162Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+[2024-11-30T02:44:58.163Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:44:58.166Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7c2a89d273548efcc1c5'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7c2a89d273548efcc1c6'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7c2a89d273548efcc1c7'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7c2a89d273548efcc1c8'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
+[2024-11-30T02:48:35.761Z] GET /api/static-chart-data
+Request Body: {}
+Static chart data request received
+[2024-11-30T02:48:35.762Z] GET /api/dynamic-chart-data
+Request Body: {}
+Dynamic chart data request received
+[0;36mMongoose:[0m chartdatas.findOne({}, {})
+Dynamic chart data fetched: {
+  _id: new ObjectId('674913dd806bfaf8300d8195'),
+  title: 'Annual Solar Capacity Additions are Breaking Records',
+  labels: [
+    '2015', '2016',
+    '2017', '2018',
+    '2019', '2020',
+    '2021', '2022',
+    '2023', '2024'
+  ],
+  datasets: [
+    {
+      _id: new ObjectId('674a7d0389d273548efcc1ca'),
+      label: 'Actual',
+      data: [Array],
+      borderColor: 'rgb(0, 76, 153)',
+      backgroundColor: 'rgba(0, 76, 153, 0.6)'
+    },
+    {
+      _id: new ObjectId('674a7d0389d273548efcc1cb'),
+      label: 'Planned',
+      data: [Array],
+      borderColor: 'rgb(0, 204, 102)',
+      backgroundColor: 'rgba(0, 204, 102, 0.6)'
+    }
+  ]
+}
